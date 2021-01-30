@@ -20,182 +20,101 @@
     <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"></p>
     <p id="currentTime" class="lead"></p>
+    <button onclick="newDay()">Reset</button>
   </header>
 
   <div class="container">
     <!-- Timeblocks go here -->
     <!--7am Row-->
-    <div class="row" id="7">
-      <div class="col-sm-1">
-        7am
-      </div>
-
-      <textarea class="col-sm-10">
-          This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="7" class="row">
+      <div class="col-sm-1">7am</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(7)">Save</button>
     </div>
 
     <!--8am Row-->
-    <div class="row" id="8">
-      <div class="col-sm-1">
-        8am
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-      This is some text within a card body.
-      </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="8" class="row">
+      <div class="col-sm-1">8am</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(8)">Save</button>
     </div>
 
     <!--9am Row-->
-    <div class="row" id="9">
-      <div class="col-sm-1">
-        9am
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="9" class="row">
+      <div class="col-sm-1">9am</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(9)">Save</button>
     </div>
 
     <!--10am Row-->
-    <div class="row" id="10">
-      <div class="col-sm-1">
-        10am
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="10" class="row">
+      <div class="col-sm-1">10am</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(10)">Save</button>
     </div>
 
     <!--11am Row-->
-    <div class="row" id="11">
-      <div class="col-sm-1">
-        11am
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="11" class="row">
+      <div class="col-sm-1">11am</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(11)">Save</button>
     </div>
 
     <!--12pm Row-->
-    <div class="row" id="12">
-      <div class="col-sm-1">
-        12pm
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="12" class="row">
+      <div class="col-sm-1">12pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(12)">Save</button>
     </div>
 
     <!--1pm Row-->
-    <div class="row" id="13">
-      <div class="col-sm-1">
-        1pm
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="13" class="row">
+      <div class="col-sm-1">1pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(13)">Save</button>
     </div>
 
     <!--2pm Row-->
-    <div class="row" id="14">
-      <div class="col-sm-1">
-        2pm
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="14" class="row">
+      <div class="col-sm-1">2pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(14)">Save</button>
     </div>
 
     <!--3pm Row-->
-    <div class="row" id="15">
-      <div class="col-sm-1">
-        3pm
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-        </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="15" class="row">
+      <div class="col-sm-1">3pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(15)">Save</button>
     </div>
 
     <!--4pm Row-->
-    <div class="row" id="16">
-      <div class="col-sm-1">
-        4pm
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-      </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="16" class="row">
+      <div class="col-sm-1">4pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(16)">Save</button>
     </div>
 
     <!--5pm Row-->
-    <div class="row" id="17">
-      <div class="col-sm-1">
-        5pm
-      </div>
-
-      <textarea class="col-sm-10 appointment">
-        This is some text within a card body.
-      </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="17" class="row">
+      <div class="col-sm-1">5pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(17)">Save</button>
     </div>
 
     <!--6pm Row-->
-    <div class="row" id="18">
-      <div class="col-sm-1">
-        6pm
-      </div>
-
-      <textarea class="col-sm-10  appointment">
-        This is some text within a card body.
-      </textarea>
-
-      <button class="col-sm-1 button">Save</button>
+    <div id="18" class="row">
+      <div class="col-sm-1">6pm</div>
+      <textarea class="col-sm-10"> </textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(18)">Save</button>
     </div>
 
     <!--7pm Row-->
-    <div class="row" id="19">
-      <div class="col-sm-1">
-        7pm
-      </div>
-
-      <textarea id="appointment" class="col-sm-10" placeholder="Enter Appointment Details">
-Testing the Testing
-      </textarea>
-
-
-      <button class="col-sm-1" onclick="letsGetStarted(19)">Save</button>
-
+    <div id="19" class="row">
+      <div class="col-sm-1">7pm</div>
+      <textarea class="col-sm-10" aria-placeholder="Appointment Details"></textarea>
+      <button class="col-sm-1" onclick="letsGetStarted(19);">Save</button>
     </div>
-
-
 
     <!--ENDING DIV TAG-->
   </div>
@@ -205,46 +124,67 @@ Testing the Testing
 
   <script>
     var currentDate = moment().format('MMMM Do, YYYY');
+    var rowEl = document.getElementsByClassName("row")
     var currentTime = moment().format('LTS');
     document.getElementById('currentDay').textContent = currentDate;
     var buttonClick = document.querySelector(".button");
     //document.getElementById('currentTime').textContent = "The Current Time is: " + currentTime;
 
-    var buttonID = ['7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm']
+    var buttonID = ['7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19'];
 
-
-    /**
-    GIVEN I am using a daily planner to create a schedule
-    WHEN I open the planner
-    THEN the current day is displayed at the top of the calendar
-    WHEN I scroll down
-    THEN I am presented with time blocks for standard business hours
-    WHEN I view the time blocks for that day
-    THEN each time block is color-coded to indicate whether it is in the past, present, or future
-    WHEN I click into a time block
-    THEN I can enter an event
-    WHEN I click the save button for that time block
-    THEN the text for that event is saved in local storage
-    WHEN I refresh the page
-    THEN the saved events persist
-
-    1. when i load the web page, my calendar dispalys
-    2. the time blocks are color coodinated bbased on the current time
-      1. gray time is current time
-      2. red time is in the past
-      3. gree time is in the future
-    3. the time blocks are locked and i can click on a button to Save the field and add/change the appointment
-    
-    4. if i close the browser window i can open the window and my appointments are saved
-    **/
     function letsGetStarted(time) {
       console.log(time);
-
-      var inputVal = document.getElementById("appointment").value;
-
+      var inputVal = document.getElementById(time).value;
+      localStorage.setItem(`${currentDate}-${time}`, inputVal);
       console.log(inputVal);
+    };
+
+    function init() {
+      //check local storage for saved values and display
+
+
 
     };
+
+    function setColors(i) {
+      var timeCheck = (moment().startOf('day').fromNow()).replace(" hours ago", "");
+      console.log(timeCheck, typeof (timeCheck));
+
+      for (let i = 0; i < buttonID.length; i++) {
+        var currentRow = document.getElementById(buttonID[i]);
+
+        console.log(currentRow['id'], timeCheck);
+
+
+
+        if (currentRow < timeCheck) {
+          var update = document.getElementsByTagName('textArea')
+          update.setAttribute("class", "past");
+        }
+
+
+
+        /*
+        if (currentRow == timeCheck) {
+          document.div.textarea.setAttribute("class", "present");
+        } else if (currentRow < currentTime) {
+          currentRow.setAttribute("class", "past");
+        } else {
+          currentRow.setAttribute("class", "future");
+        }
+*/
+
+
+      }
+
+    }
+
+    function newDay() {
+      localStorage.clear();
+    };
+
+    init();
+    setColors();
 
   </script>
 </body>
