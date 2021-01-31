@@ -1,6 +1,8 @@
 # DomRafitiDayPlanner
 I've created this planner based on the criteria below. I had a hard time with the structure of this assignmen this week and would love insight on how to have structured this as cleanly as possible. with the addition of JQuery, which doesnt make a lot of sense to me, and the fact it's 'going away' made it difficult to want to use this of this. input is welcomed.
 
+--Update: i had decided to start this project over and was surpised when i had managed to figure out the missing steps. feedack is still welcome!
+
 
 # 05 Third-Party APIs: Work Day Scheduler
 
